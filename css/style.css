@@ -19,7 +19,7 @@
     font-family: "Roboto", sans-serif;
     background-image: url("../images/eep88j2SDJ-removebg-preview\ 1.png");
     background-repeat: no-repeat;
-    background-position-x:1100px ;
+    background-position-x:900px ;
     background-position-y:100px ;
 }
 .container{
@@ -74,14 +74,15 @@
     font-weight: 700;
     line-height: normal;
 }
-.header__buy :hover{
+.header__buy:hover{
     width: 165px;
     height: 49px;
     flex-shrink: 0;
     border-radius: 5px;
     border: 2px solid #D23166;
-    background: #FAFAFA;
-    background-color: grey;
+    background-color: #FAFAFA;
+    color: red;
+   
 }
 .hero-section {
     padding: 0 30px;
@@ -100,19 +101,19 @@
     letter-spacing: 1.4px;
 }
 .hero__paragraph {
-    width: 500px;
+    opacity: 0.9;
     color: #0F0101;
-    font-size: 37.33px;
+    font-size: 57.33px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 120.5%; /* 69.083px */
 }
 span{
     opacity: 0.9;
     color: #D23166;
-    font-size: 37.33px;
+    font-size: 57.33px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 120.5%;
 }
 .hero__text {
