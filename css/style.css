@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  body{
+    background-color: #F2CEDA;
+    font-family: "Roboto", sans-serif;
+    background-image: url("../images/eep88j2SDJ-removebg-preview\ 1.png");
+    background-repeat: no-repeat;
+    background-position-x:1100px ;
+    background-position-y:100px ;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header{
+    background: #F2CEDA;
+}
+.header__logo-link {
+    display: inline-block;
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar__item {
+    display: inline-block;
+    margin-left:40px ;
+}
+.navbar__link {
+    color: #150101;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+}
+.navbar__link-first{
+    color: #D23166;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__buy {
+    width: 165px;
+    padding: 14px 0;
+    border-radius: 5px;
+    background: #D23166;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header__buy :hover{
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #D23166;
+    background: #FAFAFA;
+    background-color: grey;
+}
+.hero-section {
+    padding: 0 30px;
+}
+.hero {
+    width: 665px;
+}
+.hero__first-words {
+    margin-top: 200px;
+    margin-bottom: 5px;
+    color: #0F0101;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+.hero__paragraph {
+    width: 500px;
+    color: #0F0101;
+    font-size: 37.33px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120.5%; /* 69.083px */
+}
+span{
+    opacity: 0.9;
+    color: #D23166;
+    font-size: 37.33px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120.5%;
+}
+.hero__text {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    color: #0F0101;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    opacity: 0.6;
+}
+.hero__buy {
+    width: 165px;
+    padding: 19px 50px;
+    border-radius: 5px;
+    background: #D23166;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-menu {
+    padding: 100px 0;
+    margin-top: 100px;
+    background-color: #FFF;;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+.menu__item {
+    margin-left:40px ;
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.10);
+    text-align: center;
+    opacity: 0.8;
+}
+.menu__card {
+    margin-top: 50px;
+}
+.menu-card-text {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
